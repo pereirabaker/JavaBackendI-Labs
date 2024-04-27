@@ -4,7 +4,7 @@ public class ClasificadorDeNumeros {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Ingrese un numero: ");
-        int num = scan.nextInt();
+        double num = scan.nextDouble();
         if (num < 0) {
             System.out.println("El numero es negativo");
         } else if (num == 0) {
