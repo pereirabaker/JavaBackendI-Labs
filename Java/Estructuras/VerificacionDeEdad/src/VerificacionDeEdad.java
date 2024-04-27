@@ -10,6 +10,7 @@ public class VerificacionDeEdad {
         } else {
             System.out.println("Eres menor de edad.");
         }
+        scan.close();
     }
 }
 

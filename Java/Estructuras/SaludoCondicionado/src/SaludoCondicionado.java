@@ -18,5 +18,6 @@ public class SaludoCondicionado {
         } else {
             System.out.println("Buenas noches.");
         }
+        scan.close();
     }
 }
