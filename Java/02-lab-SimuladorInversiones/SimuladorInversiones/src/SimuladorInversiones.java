@@ -5,13 +5,12 @@ public class SimuladorInversiones {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         scan.useLocale(new Locale("es", "ES"));
-
+        // ingreso de estado //
         System.out.println("Ingrese el estado del mercado (recesión, estable, crecimiento): ");
         String estado = scan.nextLine();
-
+        // ingreso de perfil //
         System.out.println("Ingrese su perfil de riesgo (bajo, medio, alto): ");
         String perfil = scan.nextLine();
-
         switch (estado.toLowerCase()) {
             case "recesión":
                 if (perfil.equalsIgnoreCase("bajo")) {
