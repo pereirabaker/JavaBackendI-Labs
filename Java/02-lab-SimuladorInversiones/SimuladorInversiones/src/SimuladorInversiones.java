@@ -41,7 +41,7 @@ public class SimuladorInversiones {
                 }
                 break;
             default:
-                System.out.println("Opción ingresada inválida");
+                System.out.println("Opción ingresada inválida.");
                 break;
         }
     }
