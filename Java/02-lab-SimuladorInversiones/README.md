@@ -17,4 +17,18 @@ Una vez que hayas ingresado tanto el estado del mercado como tu perfil de riesgo
 - **Finalización del programa:**
 Una vez que se ha mostrado la recomendación de inversión, el programa finaliza su ejecución.
 
+##### Ejemplo de uso:
+**Entrada:**
+```plaintext
+Ingrese el estado del mercado (recesión, estable, crecimiento): crecimiento
+Ingrese su perfil de riesgo (bajo, medio, alto): medio
+```
+**Salida:**
+```plaintext
+Inversión recomendada: Acciones diversificadas.
+```
+
+
+
+
 
