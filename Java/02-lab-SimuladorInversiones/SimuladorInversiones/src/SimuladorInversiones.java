@@ -4,7 +4,7 @@ import java.util.Locale;
 public class SimuladorInversiones {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        scan.useLocale(new Locale("es", "ES")); // Configurar el escáner para usar la configuración regional española
+        scan.useLocale(new Locale("es", "ES"));
 
         System.out.println("Ingrese el estado del mercado (recesión, estable, crecimiento): ");
         String estado = scan.nextLine();
